@@ -1,0 +1,28 @@
+prefix: "&5&lPaladin &r&7» &r"
+
+sender:
+  freeze: "&d{target} &7został &bzamrożony&7!"
+  not_frozen: "&d{target} &7nie &cjest &bzamrożony&7!"
+  already_frozen: "&d{target} &7jest &cjuż &bzamrożony&7!"
+  cannot_freeze_self: "&dNie &7możesz zamrozić samego siebie!"
+  thaw: "&d{target} &7został &aodmrożony&7!"
+
+target:
+  freeze:
+    - ""
+    - "&7&lZostałeś &c&lzamrożony &r&7przez &cadministratora&7"
+    - "&cRozłączenie się &7spowoduje, że zostaniesz &4zbanowany&7"
+    - "&dKliknij poniżej &7aby otworzyć Twój &2jednorazowy scan od anticheata&7!"
+    - "&d&n{link}"
+  thaw: "&dZostałeś &bodmrożony&7!"
+
+autothaw:
+  admin: "&d{target} &7został automatycznie &bodmrożony&7!"
+  target: "&dZostałeś &7automatycznie &bodmrożony&7!"
+
+scan:
+  started: "&d{target} &7zaczął &esię &7skanować"
+  complete:
+    - "&d{target} &7zakonczył &2się &7skanować"
+    - "&d&nKliknij tutaj &7aby zobaczyć wyniki skanu &d{target}"
+  abort: "&d{target} &4przerwał &7swój skan!"
