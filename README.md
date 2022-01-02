@@ -1,2 +1,2 @@
-# whatthefuck
+# idksomething
 polish-autopaladin-texts
